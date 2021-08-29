@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>produit</title>
+    <link rel="stylesheet" href="loginStyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body>
+    
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                  <a href="index.html"><img src="images/logositepng2.png" alt="" width="125px" height="auto"></a> 
+                </div>
+                
+                <nav>
+                  <ul>
+                    <li><input type="search" class="input" placeholder="Recherche"></li>
+                    <li><a href="index.html">Acceuil</a></li>
+                    <li><a href="Products.html">Nos Produits</a></li>
+                    <li><a href="about.html">A propos</a></li>
+                    <li><a href="contact2.html">Contacter</a></li>
+                    <li><a href="login.html"><u>Compte</a></u></a></li>
+                  </ul>
+                  <a href="cart.html"><img src="images/cart2.png" alt="" width="40px" height="50px" class="cart"></a>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <div class="defarticle">
+        <div class="row">
+
+
+        
+            <div class="col-2">
+                <img src="images/Nova5T.jpg" alt=""><br>
+                <p>Prix : <b class="prix">1 050 DT</b> </p>
+                <p class="retourpage"><a class="retourpage" href="Products.html">Retourner</a></p>
+            </div>
+
+            <div class="col-2 up">
+                <h2>Huawei NOVA 5T</h2>
+                <p>
+                    Ecran: 6.4" LCD LTPS IPS - Résolution: 2310 x 1080 pixels - Systéme d'exploitation: Android 10 EMUI 10 - Processeur: Kirin 810 Octa-Core
+                     (2x2.27 GHz Cortex-A76 & 6x1.88 GHz Cortex-A55) - Mémoire RAM: 8 Go - Stockage: 128 Go Extensible Jusqu'à 256 Go - Appareil Photo Arriére Quad: 48 MP
+                      + 8 MP + 2 MP + 2 MP, LED flash, HDR, panorama, Appareil Photo Frontale: 16 MP f/2.0 - Connctivité: 4G.
+                </p>
+                <div class="colo-2">
+                        <div class="formprix">
+                            <form>
+                                <label for="quantity">Quantité :</label>
+                                <input type="number" id="quantity" name="quantity" min="1" max="5" class="inputquantite">
+                                <button class="smt" onclick="verifPassCommande()">Commander</button>
+                            </form>
+
+                            
+                            <div class="colour">
+
+                                les couleurs disponibles :
+                                <span style="background:black;color:black">.</span>
+                                <span style="background:blue;color:blue;">.</span>
+                                <span style="background:red;color:red;">.</span>
+                                
+                                
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        
+         </div>
+         
+         
+    </div>
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Developper Par:</h3>
+                    <p>Aymen Ben Abbes & Elyes Kacem</p>
+                    <div class="pic">
+                        <img src="images/Aymen.jpg" alt="">
+                        <img src="images/Elyes.jpg" alt="">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/logositepng2.png" alt="">
+                    <p>Notre objectif est de satisfaire nos clients avec nos produits technologiques</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Réseaux Sociaux</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Instagram</li>
+                        <li>Twitter</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                  <h3>Notre adresse</h3>
+                  <ul>
+                      <li>bizerte 7000</li>
+                      <li>Avenue Habib Bourguiba</li>
+                      <li>#Numero1: 51869906</li>
+                      <li>#Numero2: 95578050</li>
+                  </ul>
+              </div>
+            </div>
+            <hr>
+            <p><center> Copyright 2020 © ShoppiNet - Tous Droits Reservés par Elyes & AYmen</center></p>
+        </div>
+    </footer>
+    
+
+</body>
+</html>

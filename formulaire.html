@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="loginStyle.css">
+    <script src="script.js"></script>
+    <title>formulaire</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                  <a href="index.html"><img src="images/logositepng2.png" alt="" width="125px" height="auto"></a> 
+                </div>
+                
+                <nav>
+                  <ul>
+                    <li><input type="search" class="input" placeholder="Recherche"></li>
+                    <li><a href="index.html">Acceuil</a></li>
+                    <li><a href="Products.html">Nos Produits</a></li>
+                    <li><a href="about.html">A propos</a></li>
+                    <li><a href="contact2.html">Contacter</a></li>
+                    <li><a href="login.html"><u>Compte</a></u></a></li>
+                  </ul>
+                  <a href="cart.html"><img src="images/cart2.png" alt="" width="40px" height="50px" class="cart"></a>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    
+
+
+    
+   <div class="formulaire">
+      <div class="formulaire-box">
+
+        <h1>Inscription</h1>        
+        <div class="text-box ">
+            <input type="text" name="nom" id="nom" class="inputText inputText3" placeholder="Nom">
+            <input type="text" name="prenom" id="prenom" class="inputText inputText3" placeholder="Prenom">
+        </div>
+
+        <div class="text-box">
+
+            <input type="text" name="mail" id="mail"  class="inputText inputText2" placeholder="Email">
+        </div>
+        <div class="text-box">
+            <input type="password" name="password" id="password" class="inputText inputText3" placeholder="Mot de passe">
+            <input type="password" name="confirmpassword" id="confirmpassword" class="inputText inputText3" placeholder="Confirmer mot de passe"><br>
+            
+        </div>
+        <div class="text-box">
+            <input type="text" name="numtel" id="numtel" class="inputText inputText2" placeholder="Numero de Télephone"><br>
+            <input type="checkbox" name="confirmercondition" id="confirmercondition"><label>J'accepte les condition d'utilisation</label><br>
+            <p id="messageErreur" class="messageErreur"></p>
+        </div>
+
+
+        <div  class="groupe2">
+            
+            <button class="smt" onclick="verifFormulaire()">Créer un compte</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="login.html" class="sign-up">J'ai déja un compte</a>
+        </div>
+      </div>
+
+   </div>
+ <!--Les marques-->
+ <div class="marque">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-5">
+                <img src="images/isamm.png" alt="">
+            </div>
+            <div class="col-5">
+              <img src="images/microsoft.png" alt="">
+          </div>
+          <div class="col-5">
+              <img src="images/Huaweilogo.png" alt="">
+          </div>
+          <div class="col-5">
+              <img src="images/Xiaomi.png" alt="">
+          </div>
+          <div class="col-5">
+              <img src="images/visa.png" alt="">
+          </div>
+        </div>
+    </div>
+</div>
+<!---footer-->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Developper Par:</h3>
+                <p>Aymen Ben Abbes & Elyes Kacem</p>
+                <div class="pic">
+                    <a href="https://www.fb.com/aymounovich" target="_blank"><img src="images/Aymen.jpg" alt=""></a>
+                    <a href="https://www.fb.com/elyes.kacem.50"><img src="images/Elyes.jpg" alt=""></a>
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="images/logositepng2.png" alt="">
+                <p>Notre objectif est de satisfaire nos clients avec nos produits technologiques</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Réseaux Sociaux</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Instagram</li>
+                    <li>Twitter</li>
+                    <li>Youtube</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+              <h3>Notre adresse</h3>
+              <ul>
+                  <li>bizerte 7000</li>
+                  <li>Avenue Habib Bourguiba</li>
+                  <li>#Numero1: 51869906</li>
+                  <li>#Numero2: 95578050</li>
+                  <li>Vous etes bienvenue</li>
+              </ul>
+          </div>
+        </div>
+        <hr>
+        <p><center> Copyright 2020 © ShoppiNet - Tous Droits Reservés par Elyes & AYmen</center></p>
+    </div>
+</footer>
+
+</body>
+</html>

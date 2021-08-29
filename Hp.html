@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>produit</title>
+    <link rel="stylesheet" href="loginStyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body>
+    
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                  <a href="index.html"><img src="images/logositepng2.png" alt="" width="125px" height="auto"></a> 
+                </div>
+                
+                <nav>
+                  <ul>
+                    <li><input type="search" class="input" placeholder="Recherche"></li>
+                    <li><a href="index.html">Acceuil</a></li>
+                    <li><a href="Products.html">Nos Produits</a></li>
+                    <li><a href="about.html">A propos</a></li>
+                    <li><a href="contact2.html">Contacter</a></li>
+                    <li><a href="login.html"><u>Compte</a></u></a></li>
+                  </ul>
+                  <a href="cart.html"><img src="images/cart2.png" alt="" width="40px" height="50px" class="cart"></a>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <div class="defarticle">
+        <div class="row">
+
+
+        
+            <div class="col-2">
+                <img src="images/hp pavillon.jpg" alt=""><br>
+                <p>Prix : <b class="prix">2 500 DT</b> </p>
+                <p class="retourpage"><a class="retourpage" href="Products.html">Retourner</a></p>
+            </div>
+
+            <div class="col-2 up">
+                <h2>HP Pavillon 15</h2>
+                <p>
+                    Écran 15.6" Full HD IPS - Processeur Intel Core i5-9300H, up to 4.1 Ghz, 8 Mo de cache - Mémoire 8 Go - Disque 512 Go SSD M.2 - 
+                    Carte graphique Nvidia GeForce GTX 1050, 3 Go de mémoire GDDR5 dédiée - Clavier rétroéclairé - Wifi - Bluetooth - USB 3.1 Type C 
+                    - 3x USB 3.1 - HDMI - DisplayPort - Lecteur de cartes - Windows 10 - Garantie 1 an + SIM Orange Offerte 60 Go
+                </p>
+                <div class="colo-2">
+                        <div class="formprix">
+                            <form>
+                                <label for="quantity">Quantité :</label>
+                                <input type="number" id="quantity" name="quantity" min="1" max="5" class="inputquantite">
+                                <button class="smt" onclick="verifPassCommande()">Commander</button>
+                            </form>
+
+                            
+                            <div class="colour">
+
+                                les couleurs disponibles :
+                                <span style="background:black;color:black">.</span>
+                                <span style="background:blue;color:blue;">.</span>
+                                <span style="background:red;color:red;">.</span>
+                                
+                                
+                            </div>
+                        </div>
+
+                    </div>
+            </div>
+        
+         </div>
+         
+         
+    </div>
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Developper Par:</h3>
+                    <p>Aymen Ben Abbes & Elyes Kacem</p>
+                    <div class="pic">
+                        <img src="images/Aymen.jpg" alt="">
+                        <img src="images/Elyes.jpg" alt="">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/logositepng2.png" alt="">
+                    <p>Notre objectif est de satisfaire nos clients avec nos produits technologiques</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Réseaux Sociaux</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Instagram</li>
+                        <li>Twitter</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                  <h3>Notre adresse</h3>
+                  <ul>
+                      <li>bizerte 7000</li>
+                      <li>Avenue Habib Bourguiba</li>
+                      <li>#Numero1: 51869906</li>
+                      <li>#Numero2: 95578050</li>
+                  </ul>
+              </div>
+            </div>
+            <hr>
+            <p><center> Copyright 2020 © ShoppiNet - Tous Droits Reservés par Elyes & AYmen</center></p>
+        </div>
+    </footer>
+    
+
+</body>
+</html>
